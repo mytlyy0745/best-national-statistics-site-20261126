@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NationStat — National Statistics, Plainly Told</title>
+<meta name="description" content="NationStat compares 15 countries on 9 real indicators from the World Bank, 2024 — population, GDP, life expectancy and more.">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAi0lEQVR4nGPkL8tjoCVgoqnpoxaMWjAsLHjR2rMlPRfOfdTYQWULfv35w8LEZKOkQqq5xFrAwMDQtmt7lZsXDS04dPcWAwODrbIqrSxgYGBo27WtytWThhYcuXfn7///dspqtLKAAeIJN3I8QawFx+7f/fX3DxsLC6kWMI5WOKMWjFowasGoBUPBAgCifSKM9VMI+QAAAABJRU5ErkJggg==">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">N§</span>
+      <span class="brand-text"><strong>NationStat</strong><em>National statistics, plainly told</em></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#/" data-nav="rankings">Rankings</a>
+      <a href="#/compare" data-nav="compare">Compare</a>
+      <a href="#/about" data-nav="about">About the data</a>
+    </nav>
+  </div>
+</header>
+
+<main id="app" class="wrap" aria-live="polite"></main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>NationStat</strong> — fifteen countries, nine indicators, one honest look at the numbers.</p>
+    <p>All figures: World Bank, World Development Indicators, 2024. Series run 2015–2024.
+       See the <a href="#/about">About the data</a> page for definitions, coverage notes and caveats,
+       or browse the source at <a href="https://data.worldbank.org">data.worldbank.org</a>.</p>
+    <p class="fineprint">NationStat is an independent project. It is not affiliated with the World Bank.
+       Figures are rounded from the Bank's published values; check the About page before quoting them.</p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
